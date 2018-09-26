@@ -1,0 +1,110 @@
+body {
+    /*color: #000;*/
+}
+
+.instafeed li img {
+    margin: 5px;
+    width: 100%;
+}
+
+.single-list .thumb img {
+    width: 255px;
+}
+
+.single-list .date {
+    opacity: .74;
+}
+
+.comment-sec-area .thumb {
+    width: 64px;
+}
+
+.comment-sec-area .thumb > img {
+    width: 100%;
+}
+
+.comment-sec-area .comment-list.left-padding {
+    padding-left: 64px;
+}
+
+.banner-content h1 {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.banner-content h1 > span {
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.top-left h1 {
+    font-size: 25px;
+}
+
+b, strong {
+    font-weight: bold;
+}
+
+#mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 9999;
+    background: #000;
+    opacity: .64;
+    text-align: center;
+    display: none;
+}
+
+#mask.open {
+    display: block;
+
+}
+
+#mask .mask-content {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#mask .mask-content i {
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    margin-top: -32px;
+}
+
+.comment-sec-area {
+    padding-bottom: 0;
+}
+
+label.error {
+    color: red;
+    margin-bottom: 0;
+}
+
+#form_comment .form-group input,
+#form_comment .form-group textarea {
+    margin-bottom: 10px;
+}
+
+.icon-loading {
+    color: #fff;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+#btn_load_comment {
+    text-align: center;
+    color: #fff;
+    margin: 0 auto 25px auto;
+    padding-right: 30px;
+}
+
+.single-post-content img {
+    max-width: 100%;
+}

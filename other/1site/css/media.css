@@ -1,0 +1,105 @@
+@media (max-width: 768px) {
+    main {
+        margin-top: 0;
+    }
+
+    .navbar-brand {
+        padding: 15px 15px;
+    }
+
+    .navbar-toggle .icon-bar {
+        background: #fff;
+    }
+
+    .navbar-toggle {
+        margin-bottom: 0;
+    }
+
+    .blue-header .navbar-nav > li {
+        margin: 0;
+    }
+
+    .blue-header {
+        position: static;
+        background: rgba(0, 0, 0, 1);
+    }
+
+    .blue-header .navbar-nav {
+        margin: 0;
+    }
+
+    .blue-banner--top-img.right {
+        display: none;
+    }
+
+    .blue-banner--top-content h2 {
+        margin-bottom: 0;
+        padding: 10px 0;
+        font-size: 18px;
+    }
+
+    .blue-box h2 {
+        font-size: 26px;
+    }
+
+    .blue-box {
+        margin-top: 25px;
+    }
+
+    .blue-banner--top-text {
+        padding-top: 0px;
+    }
+
+    .blue-banner--top-content img {
+        max-width: 100%;
+        margin-top: 0;
+    }
+
+    .blue-banner .blue-banner--overlay h2 {
+        line-height: 20px;
+    }
+
+    .blue-banner--card:before {
+        margin-top: 48.98911353032659%;
+    }
+
+    .blue-banner--services-content {
+        padding: 10px 0;
+    }
+
+    .blue-banner--services-content h2 {
+        padding-bottom: 0;
+    }
+
+    .blue-banner h2 {
+        line-height: 25px;
+        font-size: 20px;
+    }
+
+    .blue-banner--services .blue-banner--card:before {
+        margin-top: 48.13906447534766%;
+    }
+
+    .blue-box--product-item {
+        text-align: center;
+        padding: 5px 10px 5px 10px;
+    }
+
+    .blue-banner h1, .blue-box h1, .blue-banner h2, .blue-box h2, .blue-banner h3, .blue-box h3 {
+        font-size: 18px;
+        font-family: "Roboto", Sans-serif;
+    }
+
+    .blue-banner .blue-banner--overlay h1, .blue-banner .blue-banner--overlay h2 {
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}

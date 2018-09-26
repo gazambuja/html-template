@@ -1,0 +1,144 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+html, body {
+}
+
+html {
+}
+
+body {
+	font-size: 11px;
+	margin: 0;
+	padding: 0;
+	color: #232323;
+	font-family:'Open-Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, span, p, input {
+	margin: 0;
+	padding: 0;
+}
+
+table, tr, td {
+	margin: 0;
+	padding: 0;
+	border-collapse: collapse;
+}
+
+ul, li, ol {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	border: none;
+}
+
+body, div, p, a, table, td {
+	-webkit-text-size-adjust: none;
+	letter-spacing: .015em;
+}
+
+body {
+	background:#fff;
+}
+
+.wrapper {
+	width:600px;
+	padding:30px;
+}
+
+.logo-img a {
+	display:block;
+	overflow:hidden;
+	background-position:center;
+	background-repeat:no-repeat;
+	text-indent:100em;
+}
+
+a {
+	color:#232323;
+}
+
+.wrapper h1 {
+	padding: 0px 0px 0px 0px;
+	margin:	0px;
+	font-size: 30px;
+	line-height: 35px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.wrapper h1 a {
+	text-decoration:none;
+	color: #3b3b3b;
+}
+
+.wrapper > h2 {
+	display:block;
+	padding: 20px 0px 20px 0px;
+	margin:	0px;
+	font-size: 22px;
+	line-height: 25px;
+	color: #2d2d2d;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:bold;
+}
+
+.article-main-content {
+	display:block;
+	padding-bottom:10px;
+	margin-bottom:20px;
+	width:600px;
+	border-bottom:1px dotted gray;
+}
+
+.article-main-content p {
+	font-size:14px;
+	line-height:150%;
+	margin-bottom:20px;
+	width:100%;
+	text-align:justify;
+}
+
+.article-main-content > img {
+	margin-bottom:20px;
+}
+
+.smallinfo {
+	display:block;
+	padding-bottom:20px;
+	color:8e8e8e;
+	font-size:12px;
+}
+
+.smallinfo .icon-text {
+	display: none;
+}
+
+.smallinfo strong, .smallinfo span, .smallinfo > a {
+	display:block;
+	line-height:21px;
+	color:8e8e8e;
+	text-decoration:none;
+}
+
+.smallinfo span a {
+	text-decoration:none;
+	color:8e8e8e;
+	cursor:text;
+}
+
+canvas {
+	display:none;
+}
+
+.logo-image {
+	display: block;
+}
+
+.logo-image h1 {
+	display: none;
+}

@@ -1,0 +1,17 @@
+$(window).load(function () {
+    $('.preloader').fadeOut(1000);
+});
+
+$(function () {
+    new WOW().init();
+    $('.templatemo-nav').singlePageNav({
+        offset: 70,
+        filter: ":not(.external)"
+    });
+
+    /* Hide mobile menu after clicking on a link
+     -----------------------------------------------*/
+    $('.navbar-collapse a').click(function () {
+        $(".navbar-collapse").collapse('hide');
+    });
+});

@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset=utf-8>
+    <meta content="IE=edge" http-equiv=X-UA-Compatible>
+    <meta content="width=device-width,initial-scale=1" name=viewport>
+    <meta content="Chipo" name=description>
+    <meta content="Chipo" name=author>
+
+    <title>Chipo</title>
+
+    <link href="../css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="../css/style.css" rel="stylesheet"/>
+    <link href="../css/media.css" rel="stylesheet"/>
+</head>
+
+<body>
+
+<div class="chipo-alert alert alert-danger alert-dismissible fade in" role="alert">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">×</span>
+    </button>
+    <h4>Khuyến mại "Lễ hội Độc thân” Ngày 11/11 Tại Trung Quốc </h4>
+    <p>Cứ vào dịp 11/11 hàng năm; hàng nghìn website bán hàng của các Nhà cung cấp Trung Quốc sẽ đồng loạt thực hiện các
+        chương trình Khuyến mại, giảm giá chào mừng "Lễ hội Độc thân".</p>
+</div>
+
+<header class="chipo-header admin-header navbar navbar-static-top">
+
+    <div class="admin-header--top">
+        <nav class="navbar-collapse">
+            <ul class="admin-header--left nav navbar-nav">
+                <li class="admin-header--logo"><a href="/" class="logo"><img src="../img/logo.png" alt="Logo"></a></li>
+                <li><a href="#">
+                    Tỷ giá: <b class="text-danger">1NDT = 3.495đ</b>
+                </a></li>
+            </ul>
+
+            <ul class="admin-header--right nav navbar-nav navbar-right">
+                <li><a class="text-red" href="#">0đ</a></li>
+                <li>
+                    <a href="#">
+                        <i class="fa fa-shopping-cart"></i>
+                        <sup>2</sup>
+                    </a>
+                </li>
+                <li><a href="#"><i class="fa fa-globe"></i></a></li>
+                <li><a href="#"><i class="fa fa-bell-o"></i></a></li>
+                <li class="admin-header--user">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        <img src="http://www.gravatar.com/avatar/db293686d487570ec4352a4cfb16f43d?s=164&amp;d=wavatar&amp;r=g"
+                             data-phone="0982013386" class="admin-header--user-img" alt="User Image">
+                        tungnt.blue@gmail.com
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <!-- User image -->
+                        <li class="user-header">
+                            <img src="http://www.gravatar.com/avatar/db293686d487570ec4352a4cfb16f43d?s=164&amp;d=wavatar&amp;r=g"
+                                 class="img-circle" alt="User Image">
+                            <p>shopzonzon@gmail.com
+                                <small>Tham gia từ 03-11-2017</small>
+                            </p>
+                        </li>
+                        <!-- Menu Body -->
+                        <li class="user-body">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#/lich-su-giao-dich" style="float:left"><i class="fa fa-money"></i> Số dư:
+                                        <span class="text-red text-blue pull-right cashBalance"
+                                              style="padding-left: 8px;">0đ</span> </a>
+                                    <a href="#/nap-tien" type="submit" class="btn btn-default btn-xs"
+                                       style="margin-left: 20px;">Nạp tiền</a>
+                                </li>
+                                <li><a href="#/thong-tin-ca-nhan"><i class="fa fa-user"></i> Thông tin cá nhân </a></li>
+                                <li><a href="#/tao-don-nhap-hang"><i class="fa fa-download"></i> Tạo đơn hàng nhập </a>
+                                </li>
+                                <li><a href="#/danh-sach-don-hang"><i class="fa fa-files-o"></i> Danh sách đơn hàng </a>
+                                </li>
+                                <li><a href="#/lich-su-giao-dich"><i class="fa fa-exchange"></i> Quản lý giao dịch </a>
+                                </li>
+                            </ul>
+                            <!-- /.row -->
+                        </li>
+                        <!-- Menu Footer-->
+                        <li class="user-footer">
+                            <div class="pull-right">
+                                <a href="https://chipo.vn/u/logout" class="btn btn-default btn-flat"> <i
+                                        class="fa fa-sign-out"></i>Thoát </a>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+
+        </nav>
+    </div>
+
+    <div class="admin-header--top-mobile">
+        <div class="admin-header--top-logo">
+            <a href="/" class="logo"><img src="../img/logo.png" alt="Logo"></a>
+        </div>
+        <nav class="navbar-collapse">
+            <ul class="admin-header--left nav navbar-nav">
+                <li>
+                    <a href="javascript:;" class="sidebar-toggle">
+                        <span class="sr-only">Toggle navigation</span>
+                    </a>
+                </li>
+                <li><a href="#">
+                    Tỷ giá: <b class="text-danger">3.495đ</b>
+                </a></li>
+            </ul>
+
+            <ul class="admin-header--right nav navbar-nav navbar-right">
+                <li>
+                    <a href="#">
+                        <i class="fa fa-shopping-cart"></i>
+                        <sup>2</sup>
+                    </a>
+                </li>
+                <li class="admin-header--user">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                        <img src="http://www.gravatar.com/avatar/db293686d487570ec4352a4cfb16f43d?s=164&amp;d=wavatar&amp;r=g"
+                             data-phone="0982013386" class="admin-header--user-img" alt="User Image">
+                    </a>
+
+                    <ul class="dropdown-menu">
+                        <!-- User image -->
+                        <li class="user-header">
+                            <img src="http://www.gravatar.com/avatar/db293686d487570ec4352a4cfb16f43d?s=164&amp;d=wavatar&amp;r=g"
+                                 class="img-circle" alt="User Image">
+                            <p>shopzonzon@gmail.com
+                                <small>Tham gia từ 03-11-2017</small>
+                            </p>
+                        </li>
+                        <!-- Menu Body -->
+                        <li class="user-body">
+                            <ul class="list-unstyled">
+                                <li>
+                                    <a href="#/lich-su-giao-dich" style="float:left"><i class="fa fa-money"></i> Số dư:
+                                        <span class="text-red text-blue pull-right cashBalance"
+                                              style="padding-left: 8px;">0đ</span> </a>
+                                    <a href="#/nap-tien" type="submit" class="btn btn-default btn-xs"
+                                       style="margin-left: 20px;">Nạp tiền</a>
+                                </li>
+                                <li><a href="#/thong-tin-ca-nhan"><i class="fa fa-user"></i> Thông tin cá nhân </a></li>
+                                <li><a href="#/tao-don-nhap-hang"><i class="fa fa-download"></i> Tạo đơn hàng nhập </a>
+                                </li>
+                                <li><a href="#/danh-sach-don-hang"><i class="fa fa-files-o"></i> Danh sách đơn hàng </a>
+                                </li>
+                                <li><a href="#/lich-su-giao-dich"><i class="fa fa-exchange"></i> Quản lý giao dịch </a>
+                                </li>
+                            </ul>
+                            <!-- /.row -->
+                        </li>
+                        <!-- Menu Footer-->
+                        <li class="user-footer">
+                            <div class="pull-right">
+                                <a href="https://chipo.vn/u/logout" class="btn btn-default btn-flat"> <i
+                                        class="fa fa-sign-out"></i>Thoát </a>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+</header>
+
+<main id="admin-main" class="admin-main">
+    <aside class="admin-sidebar">
+
+        <div class="admin-sidebar--user-panel">
+
+            <div class="pull-left image">
+                <img src="http://www.gravatar.com/avatar/db293686d487570ec4352a4cfb16f43d?s=164&amp;d=wavatar&amp;r=g"
+                     class="img-circle" alt="User Image">
+            </div>
+            <div class="pull-left info">
+                <p>shopzonzon@gmail.com</p>
+                <span class="label label-success">Nhập hàng</span>
+
+                <span class="label label-success">VIP 0</span>
+            </div>
+        </div>
+
+        <ul id="sidebar-menu" class="admin-sidebar--menu">
+            <li class="header">Tác vụ quản lý</li>
+            <li>
+                <a href="#"><i class="fa fa-dashboard"></i> <span>Thống kê chung</span></a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-pie-chart"></i>
+                    <span>Quản lý nhập hàng</span>
+                    <i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <ul class="admin-sidebar--submenu">
+                    <li><a href="#"><i class="fa fa-files-o"></i> Danh sách đơn hàng </a></li>
+                    <li><a href="#"><i class="fa fa-download"></i> Tạo đơn nhập hàng </a></li>
+                    <li><a href="#"><i class="fa fa-cube"></i> Danh sách kiện hàng </a></li>
+                    <li><a href="#"><i class="fa fa-frown-o"></i> Danh sách khiếu nại </a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <i class="fa fa-usd"></i>
+                    <span>Quản lý ví tiền</span>
+                    <i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <ul class="admin-sidebar--submenu">
+                    <li><a href="#/nap-tien"><i class="fa fa-sign-in"></i> Nạp tiền </a></li>
+                    <li><a href="#/lich-su-giao-dich"><i class="fa fa-exchange"></i> Giao dịch </a></li>
+                    <li><a href="#/tai-khoan-ngan-hang"><i class="fa fa-credit-card"></i> Tài khoản ngân hàng </a></li>
+                    <li><a href="#/rut-tien"><i class="fa fa-sign-out"></i> Rút tiền </a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <i class="fa fa-user"></i>
+                    <span>Cá nhân</span>
+                    <i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <ul class="admin-sidebar--submenu">
+                    <li>
+                        <a href="#"> <i class="fa fa-user"></i> <span>Thông tin cá nhân</span></a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-heart"></i> Sản phẩm đã lưu </a></li>
+                    <li><a href="#"> <i class="fa fa-star"></i> <span>Cấp độ Vip</span></a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <i class="fa fa-info-circle"></i>
+                    <span>Góc thông tin</span>
+                    <i class="fa fa-angle-left pull-right"></i>
+                </a>
+                <ul class="admin-sidebar--submenu">
+                    <li>
+                        <a href="https://chipo.vn/ho-tro/bieu-phi/bieu-phi-dich-vu-nhap-hang-trung-quoc-qua-chipo/2698185792"
+                           target="_blank"><i class="fa fa-angle-right"></i> Biểu phí </a></li>
+                    <li>
+                        <a href="https://chipo.vn/ho-tro/quy-dinh-va-chinh-sach/quy-dinh-va-chinh-sach-nhap-hang-trung-quoc--qua-chipovn/2554024016"
+                           target="_blank"><i class="fa fa-angle-right"></i> Quy định và chính sách </a></li>
+                    <li>
+                        <a href="https://chipo.vn/ho-tro/huong-dan/huong-dan-nhap-hang-online-trung-quoc-tai-chipovn/6832059195"
+                           target="_blank"><i class="fa fa-angle-right"></i> Hướng dẫn nhập hàng </a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="tel://0961626210"> <i class="fa fa-phone"></i>
+                    <span> Hotline Kho: <strong>0961.62.62.10</strong> </span>
+                </a>
+            </li>
+            <li>
+                <a href="tel://0983644250"> <i class="fa fa-life-ring"></i>
+                    <span> Hotline tư vấn: <strong>0983.644.250</strong> </span>
+                </a>
+            </li>
+        </ul>
+
+    </aside>
+
+    <div class="admin-content">
+        <section class="admin-content--header">
+            <h1>Docs</h1>
+            <ol class="breadcrumb">
+                <li><a href="#"><i class="fa fa-dashboard"></i> Trang chủ </a></li>
+                <li><a href="javascript:;">Help</a></li>
+                <li class="active">Docs</li>
+            </ol>
+        </section>
+
+        <section class="admin-content--content">
+            Link: https://getbootstrap.com/docs/3.3/css/
+
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Column heading</th>
+                    <th>Column heading</th>
+                    <th>Column heading</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr class="active">
+                    <th scope="row">1</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                </tr>
+                <tr class="success">
+                    <th scope="row">3</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                </tr>
+                <tr>
+                    <th scope="row">4</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                </tr>
+                <tr class="info">
+                    <th scope="row">5</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                </tr>
+                <tr>
+                    <th scope="row">6</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                </tr>
+                <tr class="warning">
+                    <th scope="row">7</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                </tr>
+                <tr>
+                    <th scope="row">8</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                </tr>
+                <tr class="danger">
+                    <th scope="row">9</th>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                    <td>Column content</td>
+                </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="row">
+
+        </div>
+    </div>
+</footer>
+
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/jquery.metisMenu.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#sidebar-menu').metisMenu();
+
+        $('.sidebar-toggle').click(function () {
+            if ($('#admin-main').hasClass('has_menu')) {
+                $('#admin-main').removeClass('has_menu');
+            }
+            else {
+                $('#admin-main').addClass('has_menu')
+            }
+        });
+    });
+</script>
+</body>

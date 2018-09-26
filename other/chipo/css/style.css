@@ -1,0 +1,1021 @@
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #5eb2d3;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+.mr-0 {
+    margin: 0;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-red {
+    color: #f15922 !important;
+}
+
+.form-group .help-block {
+    font-size: 12px;
+}
+
+[class^="chipo-icon--"], [class*=" chipo-icon--"] {
+    background: url("../img/icons.png");
+    display: inline-block;
+}
+
+.chipo-icon--service-1 {
+    background-position: 0 0;
+    width: 80px;
+    height: 64px;
+}
+
+.chipo-icon--service-2 {
+    background-position: -80px 0px;
+    width: 80px;
+    height: 64px;
+}
+
+.chipo-icon--service-3 {
+    background-position: -160px 0px;
+    width: 80px;
+    height: 64px;
+}
+
+.chipo-icon--cost-1 {
+    background-position: 0px -339px;
+    width: 193px;
+    height: 160px;
+    background: none;
+}
+
+.chipo-icon--cost-2 {
+    background-position: -193px -339px;
+    width: 193px;
+    height: 160px;
+    background: none;
+}
+
+.chipo-icon--cost-3 {
+    background-position: -386px -339px;
+    width: 193px;
+    height: 160px;
+    background: none;
+}
+
+.chipo-icon--step-1 {
+    background-position: -272px -203px;
+    width: 136px;
+    height: 136px;
+    display: none;
+}
+
+.chipo-icon--step-2 {
+    background-position: -676px -203px;
+    width: 136px;
+    height: 136px;
+    display: none;
+}
+
+.chipo-icon--step-3 {
+    background-position: -812px -203px;
+    width: 136px;
+    height: 136px;
+    display: none;
+}
+
+.chipo-icon--step-4 {
+    background-position: -948px -203px;
+    width: 136px;
+    height: 136px;
+    display: none;
+}
+
+.chipo-icon--step-5 {
+    background-position: -1084px -203px;
+    width: 136px;
+    height: 136px;
+    display: none;
+}
+
+.chipo-icon--step-line-1 {
+    background: url(../img/line-step1.png) no-repeat 0 0;
+    width: 72px;
+    height: 19px;
+    display: none;
+}
+
+.chipo-icon--step-line-2 {
+    background: url(../img/line-step2.png) no-repeat 0 0;
+    width: 72px;
+    height: 19px;
+    display: none;
+}
+
+.chipo-alert {
+    margin-bottom: 0px;
+    color: white;
+    background-color: #4dbe99;
+    border-color: #4dbe99;
+    border-radius: 0px;
+}
+
+.chipo-alert > h4 {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.chipo-alert > p {
+    margin: 0;
+}
+
+.chipo-header {
+    margin-bottom: 0;
+}
+
+.chipo-header--top {
+    background: #32363e;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.chipo-header--top .navbar-nav > li {
+    color: #fff;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.chipo-header--top .navbar-nav > li > a {
+    color: #fff;
+    padding: 0 5px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.chipo-header--top .nav > li > a:hover,
+.chipo-header--top .nav > li > a:focus {
+    color: #fff;
+    background: transparent;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.chipo-header--bottom {
+    padding: 10px 0;
+}
+
+.chipo-header--bottom .navbar-nav > li {
+    color: #333;
+    line-height: 48px;
+}
+
+.chipo-header--bottom .navbar-nav > li > a {
+    color: #eb421b;
+    padding: 0 5px;
+    display: inline-block;
+}
+
+.chipo-header--bottom .navbar-nav > li:first-child > a {
+    padding-left: 0;
+}
+
+.chipo-header--bottom .nav > li > a:hover,
+.chipo-header--bottom .nav > li > a:focus {
+    color: #eb421b;
+    background: transparent;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.chipo-header--bottom .navbar-nav.navbar-right > li {
+    color: #000;
+    line-height: 48px;
+}
+
+.chipo-header--bottom .navbar-nav.navbar-right > li > a {
+    color: #000;
+    padding: 0 15px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.chipo-header--bottom .navbar-nav.navbar-right > li:last-child > a {
+    padding-right: 0;
+}
+
+.chipo-header--bottom .nav.navbar-right > li > a:hover,
+.chipo-header--bottom .nav.navbar-right > li > a:focus {
+    color: #333;
+    background: transparent;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.chipo-header--bottom .logo {
+    margin-right: 10px;
+}
+
+.chipo-card {
+    position: relative;
+    width: 100%;
+}
+
+.chipo-card:before {
+    content: '';
+    display: inline-block;
+    margin-top: 100%;
+}
+
+.chipo-card > .chipo-card--content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.chipo-banner {
+    width: 100%;
+}
+
+.chipo-banner:before {
+    margin-top: 17.670157068062828%;
+}
+
+.chipo-banner > .chipo-banner--content {
+    background-image: url("../img/banner-1.jpg");
+    background-repeat: no-repeat;
+    background-position: top left;
+    /*background-size: 100% 100%;*/
+    background-size: 100%;
+}
+
+.chipo-banner.chipo-cost > .chipo-banner--content {
+    background-image: url("../img/bg-title-2.png");
+}
+
+.chipo-banner > .chipo-banner--content h2 {
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    padding: 40px 0 50px;
+    font-size: 34px;
+}
+
+.chipo-banner > .chipo-banner--content .chipo-banner--content-btn {
+    border: 0;
+    border-radius: 3px;
+    background: #fff;
+    color: #333;
+    padding: 12px 40px;
+    text-transform: uppercase;
+    outline: none;
+    font-size: 14px;
+    margin-top: 40px;
+    box-shadow: 0 0 60px #fff;
+}
+
+.chipo-banner > .chipo-banner--content .chipo-banner--content-btn:hover {
+    text-decoration: inherit;
+}
+
+.chipo-banner .chipo-banner--icon {
+    position: absolute;
+    bottom: -22px;
+    /*background: url(../img/check.png);*/
+    width: 44px;
+    height: 44px;
+    left: 50%;
+    margin-left: -22px;
+}
+
+.chipo-services {
+    margin-top: 30px;
+}
+
+.chipo-services .chipo-service--item {
+}
+
+.chipo-services .chipo-service--item:before {
+    margin-top: 39.726027397260275%;
+}
+
+.chipo-services .chipo-service--item-content {
+    background: #fff;
+    border-top: 4px solid #5eb2d3;
+    padding: 40px 20px;
+    -webkit-box-shadow: 0px 0px 16px 4px rgba(0, 0, 0, 0.06);
+    -moz-box-shadow: 0px 0px 16px 4px rgba(0, 0, 0, 0.06);
+    box-shadow: 0px 0px 16px 4px rgba(0, 0, 0, 0.06);
+}
+
+.chipo-services .chipo-service--item-img {
+    float: left;
+    margin-right: 10px;
+    display: none;
+}
+
+.chipo-services .chipo-service--item-info {
+    width: 100%;
+    text-align: center;
+}
+
+.chipo-services .chipo-service--item-info > h3 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.chipo-cost {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.chipo-cost--item {
+    text-align: center;
+}
+
+.chipo-cost--item-content {
+}
+
+.chipo-cost--item-img {
+}
+
+.chipo-cost--item-info {
+    display: block;
+}
+
+.chipo-cost--item-info > h3 {
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.chipo-cost--banner {
+    position: relative;
+}
+
+.chipo-cost--content {
+    margin-top: -105px;
+}
+
+.chipo-progress {
+}
+
+.chipo-banner.chipo-progress:before {
+    margin-top: 13.87434554973822%;
+}
+
+.chipo-banner.chipo-progress > .chipo-banner--content {
+    background-image: url(../img/bg-title-new.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 100%;
+}
+
+.chipo-steps {
+    margin-top: 50px;
+}
+
+.chipo-step--item {
+    width: 20%;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+
+.chipo-step--item-line {
+    position: absolute;
+    top: 55px;
+    right: -36px;
+}
+
+.chipo-step--item-info {
+}
+
+.chipo-step--item-info > h3 {
+    color: #5eb2d3;
+    font-size: 20px;
+    margin: 0;
+}
+
+.chipo-button--ads {
+    border: 0;
+    border-radius: 3px;
+    border: 1px solid #5eb2d3;
+    background: #5eb2d3;
+    color: #fff;
+    padding: 10px 48px;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.chipo-button--ads:hover {
+    border: 1px solid #5eb2d3;
+    background: transparent;
+    color: #5eb2d3;
+}
+
+.chipo-button--register {
+    font-size: 16px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.chipo-button--login {
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+footer {
+    background: #32363e;
+    color: #fff;
+    padding: 55px 0px 80px 0px;
+}
+
+footer ul li {
+    padding-bottom: 10px;
+}
+
+footer ul li label {
+    text-transform: uppercase;
+}
+
+footer ul li a {
+    color: #fff;
+}
+
+footer .footer-address {
+    margin-top: -15px;
+}
+
+.chipo-register {
+}
+
+.chipo-register:before {
+    margin-top: 44.50261780104712%;
+}
+
+.chipo-register--content {
+    background-image: url(../img/bg-register.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 100% 100%;
+}
+
+.chipo-register--frm {
+    width: 100%;
+    padding: 50px;
+}
+
+.chipo-register--frm-header {
+    margin: 0 auto;
+    background: #fff;
+    width: 100%;
+    padding: 25px;
+}
+
+.chipo-register--frm-content {
+    margin: 0 auto;
+    background: #f7f7f7;
+    width: 100%;
+    padding: 25px;
+    display: table;
+}
+
+.chipo-register--frm-header h3 {
+    font-size: 24px;
+    color: #4f4f4f;
+    font-weight: bold;
+    margin: 0;
+}
+
+.chipo-login {
+}
+
+.chipo-login:before {
+    margin-top: 44.50261780104712%;
+}
+
+.chipo-login--content {
+    background-image: url(../img/bg-login.jpg);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 100% 100%;
+}
+
+.chipo-login--frm {
+    width: 440px;
+    padding: 50px;
+    margin: 0 auto;
+}
+
+.chipo-login--frm-header {
+    margin: 0 auto;
+    background: #fff;
+    width: 100%;
+    padding: 25px;
+}
+
+.chipo-login--frm-content {
+    margin: 0 auto;
+    background: #f7f7f7;
+    width: 100%;
+    padding: 25px;
+    display: table;
+}
+
+.chipo-login--frm-header h3 {
+    font-size: 24px;
+    color: #4f4f4f;
+    font-weight: bold;
+    margin: 0;
+}
+
+.chipo-search--frm {
+    margin-left: 100px;
+    margin-top: -7px;
+}
+
+.input-group .form-control.chipo-search--text {
+    width: 415px;
+}
+
+.input-group .input-group-btn button.chipo-search--btn {
+    background: #5eb2d3;
+    border-color: #5eb2d3;
+    border-radius: 0 4px 4px 0;
+    color: #fff;
+}
+
+.chipo-post {
+}
+
+.chipo-post--breadcrumb {
+}
+
+.chipo-post--breadcrumb > ul {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+}
+
+.chipo-post--breadcrumb > ul > li {
+    display: inline-block;
+}
+
+.chipo-post--breadcrumb > ul > li + li:before {
+    padding: 0 5px;
+    color: #ccc;
+    content: "/\00a0";
+}
+
+.chipo-post--breadcrumb > ul > li.active {
+}
+
+.chipo-post--breadcrumb > ul > li > a {
+    color: #eb421b;
+}
+
+.chipo-post--breadcrumb > ul > li.active {
+    color: #777;
+}
+
+.chipo-post--menu {
+}
+
+.chipo-post--menu h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 0 0 15px 0;
+}
+
+.chipo-post--menu .panel {
+    border: 0;
+    background: none;
+    box-shadow: none;
+    position: relative;
+}
+
+.chipo-post--menu .panel h4 {
+    font-size: 15px;
+    padding-left: 30px;
+    font-weight: normal;
+    margin: 0;
+    background: transparent;
+}
+
+.chipo-post--menu .panel h4 a.collapsed:before {
+    content: "+";
+}
+
+.chipo-post--menu .panel h4 a:before {
+    content: '-';
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    top: 10px;
+}
+
+.chipo-post--menu .panel ul {
+    list-style: none;
+    padding-left: 30px;
+    padding-top: 0;
+}
+
+.chipo-post--menu .panel ul li {
+    padding-bottom: 10px;
+}
+
+.chipo-post--menu .panel ul li a {
+    color: #212121;
+    line-height: 1.7;
+}
+
+.chipo-post--menu .panel ul li a:focus,
+.chipo-post--menu .panel ul li a:hover {
+    color: #eb421b;
+    text-decoration: none;
+}
+
+.chipo-post--content {
+}
+
+.chipo-post--content h1 {
+    font-size: 16px;
+    margin: 0 0 15px 0;
+}
+
+.chipo-post--content img {
+    max-width: 100%;
+}
+
+.chipo-post--menu .panel-default > .panel-heading {
+    color: #333;
+    background-color: transparent;
+    border: none;
+}
+
+.chipo-post--menu .panel-default > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: transparent;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.admin-header {
+    min-height: inherit;
+}
+
+.admin-header--top {
+    border-bottom: 1px solid #eee;
+}
+
+.admin-header--left {
+
+}
+
+.admin-header--left > li.admin-header--logo {
+    width: 230px;
+    text-align: center;
+    border-right: 1px solid #eee;
+}
+
+.admin-header--left > li.admin-header--logo > a {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.admin-header--left > li {
+
+}
+
+.admin-header--left > li > a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.admin-header--left > li > a > img {
+    height: 35px;
+}
+
+.admin-header--left > li > a:hover {
+    background: transparent;
+}
+
+.admin-header--right {
+    padding-right: 15px;
+}
+
+.admin-header--right > li {
+    border-right: 1px solid #eee;
+}
+
+.admin-header--right > li:last-child {
+    border-right: none;
+}
+
+.admin-header--right > li > a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.admin-header--right > li > a:hover {
+    background: transparent;
+}
+
+.admin-main {
+    position: relative;
+}
+
+.admin-sidebar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100%;
+    width: 230px;
+    -webkit-transition: -webkit-transform .3s ease-in-out, width .3s ease-in-out;
+    -moz-transition: -moz-transform .3s ease-in-out, width .3s ease-in-out;
+    -o-transition: -o-transform .3s ease-in-out, width .3s ease-in-out;
+    transition: transform .3s ease-in-out, width .3s ease-in-out;
+    background: #222d32;
+    z-index: 9999;
+}
+
+.admin-content {
+    min-height: 650px;
+    background: #ecf0f5;
+    -webkit-transition: -webkit-transform .3s ease-in-out, margin .3s ease-in-out;
+    -moz-transition: -moz-transform .3s ease-in-out, margin .3s ease-in-out;
+    -o-transition: -o-transform .3s ease-in-out, margin .3s ease-in-out;
+    transition: transform .3s ease-in-out, margin .3s ease-in-out;
+    margin-left: 230px;
+    padding: 15px;
+}
+
+.admin-sidebar--menu,
+.admin-sidebar--submenu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.admin-sidebar--menu > li {
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.admin-sidebar--menu > li.header {
+    color: #4b646f;
+    background: #1a2226;
+    padding: 10px 25px 10px 15px;
+    font-size: 12px;
+}
+
+.admin-sidebar--menu > li.active > a {
+    color: #fff;
+    background: #1e282c;
+    border-left-color: #f15922;
+}
+
+.admin-sidebar--menu > li > a {
+    padding: 12px 5px 12px 15px;
+    display: block;
+    color: #b8c7ce;
+    border-left: 3px solid transparent;
+    position: relative;
+}
+
+.admin-sidebar--menu > li:hover > a {
+    color: #fff;
+    background: #1e282c;
+    border-left-color: #f15922;
+}
+
+.admin-sidebar--menu > li > a:focus {
+    text-decoration: none;
+}
+
+.admin-sidebar--menu > li.active .admin-sidebar--submenu {
+    display: block;
+}
+
+.admin-sidebar--submenu {
+    background: #2c3b41;
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.admin-sidebar--submenu > li {
+    margin: 0;
+}
+
+.admin-sidebar--submenu > li > a {
+    padding: 5px 5px 5px 15px;
+    display: block;
+    font-size: 13px;
+    color: #8aa4af;
+}
+
+.admin-sidebar--submenu > li > a:hover {
+    color: #fff;
+}
+
+.admin-sidebar--menu > li > a > .fa,
+.admin-sidebar--submenu > li > a > .fa {
+    width: 20px;
+}
+
+.admin-sidebar--user-panel {
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.admin-sidebar--user-panel > .image > img {
+    width: 100%;
+    max-width: 45px;
+    height: auto;
+}
+
+.admin-sidebar--user-panel > .info {
+    padding: 5px 5px 5px 15px;
+    line-height: 1;
+    position: absolute;
+    left: 55px;
+}
+
+.admin-sidebar--user-panel > .info > p {
+    margin-bottom: 9px;
+}
+
+.admin-sidebar--user-panel > .info,
+.admin-sidebar--user-panel > .info > a {
+    color: #fff;
+}
+
+.admin-header--user-img {
+    float: left;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-top: -2px;
+}
+
+.admin-header--user .dropdown-menu {
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    padding: 1px 0 0 0;
+    border-top-width: 0;
+    width: 280px;
+}
+
+.admin-header--user .dropdown-menu > li.user-header {
+    height: 175px;
+    padding: 10px;
+    text-align: center;
+    background-color: #222;
+}
+
+.admin-header--user .dropdown-menu > li.user-header > p > small {
+    display: block;
+    font-size: 12px;
+}
+
+.admin-header--user .dropdown-menu > li.user-header > p {
+    z-index: 5;
+    color: #fff;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 17px;
+    margin-top: 10px;
+}
+
+.admin-header--user .dropdown-menu > li.user-header > img {
+    z-index: 5;
+    height: 90px;
+    width: 90px;
+    border: 3px solid;
+    border-color: transparent;
+    border-color: rgba(255, 255, 255, 0.2);
+}
+
+.admin-header--user .dropdown-menu > .user-body {
+    padding: 15px;
+    border-bottom: 1px solid #f4f4f4;
+    border-top: 1px solid #dddddd;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.admin-header--user > .dropdown-menu > .user-footer {
+    background-color: #f9f9f9;
+    padding: 10px;
+}
+
+.admin-content--header {
+}
+
+.admin-content--header > .breadcrumb {
+}
+
+.admin-content--header > .breadcrumb > li {
+}
+
+.admin-content--header > .breadcrumb > li > a {
+}
+
+.admin-content--header > .breadcrumb > li.active {
+}
+
+.admin-content--header > .breadcrumb > li.active > a {
+}
+
+.admin-content--header > h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.admin-content--header > .breadcrumb {
+    float: right;
+    background: transparent;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    padding: 7px 5px;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    border-radius: 2px;
+}
+
+.admin-content--header > .breadcrumb > li {
+    display: inline-block;
+}
+
+.admin-content--header > .breadcrumb > li > a {
+    color: #444;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.admin-content--header > .breadcrumb > .active {
+    color: #777;
+}
+
+.admin-content--header > .breadcrumb > li + li:before {
+    content: '>\00a0';
+}
+
+.admin-header .sidebar-toggle:hover {
+    color: #fff;
+}
+
+.admin-header .sidebar-toggle {
+    float: left;
+    background-color: transparent;
+    background-image: none;
+    padding: 10px 0;
+    font-family: fontAwesome;
+    color: #999;
+    background: #fff;
+    border-right: 1px solid #eee;
+}
+
+.admin-header .sidebar-toggle:before {
+    content: "\f0c9";
+}
+
+.admin-header--top-mobile {
+    display: none;
+}
+
+.chipo-button--login,
+.chipo-button--login:hover,
+.chipo-button--register,
+.chipo-button--register:hover{
+    background: #5eb2d3;
+    border: solid 1px #5eb2d3;
+}

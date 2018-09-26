@@ -1,0 +1,32 @@
+.p-b-0 {
+    padding-bottom: 0 !important;
+}
+
+.main-menu .navigation > li {
+    margin-left: 25px;
+}
+
+label.error {
+    color: red;
+}
+
+.icon-loading {
+    color: #fff;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.post-content img {
+    max-width: 100%;
+}
+
+.class-block .lower-content h3 {
+    font-size: 14px;
+    line-height: 1.2em;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+.course-detail .description-content h2 {
+    font-size: 18px;
+}

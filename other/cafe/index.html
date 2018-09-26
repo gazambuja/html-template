@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+    <meta charset=utf-8>
+    <meta content="IE=edge" http-equiv=X-UA-Compatible>
+    <meta content="width=device-width,initial-scale=1" name=viewport>
+    <meta content="Bootstrap, a sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development."
+          name=description>
+    <meta content="Mark Otto, Jacob Thornton, and Bootstrap contributors" name=author>
+
+    <title> Bootstrap &middot; The world's most popular mobile-first and responsive front-end framework. </title>
+
+    <link href=css/bootstrap.min.css rel=stylesheet>
+    <link href=css/style.css rel=stylesheet>
+    <link href=css/media.css rel=stylesheet>
+
+    <link href=favicon.ico rel=icon>
+</head>
+
+<body>
+
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <ol class="bl-carousel--indicators carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    </ol>
+
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <div class="bl-carousel--item-thumb">
+                <div class="bl-carousel--item-thumb-content">
+                    <img src="img/slide-1.jpg" alt="Title 1">
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="bl-carousel--item-thumb">
+                <div class="bl-carousel--item-thumb-content">
+                    <img src="img/slide-2.jpg" alt="Title 1">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a class="bl-carousel--control left carousel-control" href="#carousel-example-generic" role="button"
+       data-slide="prev">
+        <span class="bl-icon--chevron-left"></span>
+    </a>
+    <a class="bl-carousel--control right carousel-control" href="#carousel-example-generic" role="button"
+       data-slide="next">
+        <span class="bl-icon--chevron-right"></span>
+    </a>
+</div>
+
+<header class="bl-menu--top navbar">
+    <div class=navbar-header>
+        <a href="/" class="bl-logo" navbar-brand>
+            <span class="bl-icon--logo"></span>
+        </a>
+    </div>
+    <nav class="collapse navbar-collapse" id=bs-navbar>
+        <ul class="nav navbar-nav">
+            <li><a href="/">Home</a>
+            </li>
+            <li><a href="#about">About Us</a>
+            </li>
+            <li><a href="#coffee">Coffee</a>
+            </li>
+            <li><a href="#blog">Blog</a>
+            </li>
+            <li><a href="#contact">Contact us</a></li>
+        </ul>
+    </nav>
+
+    <div class="bl-flag">
+        <span class="bl-flag--icon bl-icon--flag-vi"></span>
+        <span class="bl-flag--icon bl-icon--flag-en"></span>
+    </div>
+</header>
+
+<div id="about" class="bl-banner">
+    <div class="bl-banner--content">
+        <img src="img/1.jpg" alt="">
+    </div>
+    <div class="bl-banner--info">
+        <h2 class="bl-banner--info-title">
+            Năng truyền thống
+        </h2>
+
+        <div class="bl-banner--info-intro">
+            Tìm hiểu thêm về Năng Café, đặc sản cà phê Phố cổ Hà Nội, chất lượng được người Việt tin dùng
+        </div>
+
+        <div class="bl-banner--info-more">
+            <a href="#">Read more</a>
+        </div>
+    </div>
+</div>
+
+<div id="coffee" class="bl-coffee">
+    <h2 class="title">Coffee</h2>
+
+    <div class="bl-coffee--content">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="row">
+                    <h3 class="sub-title">Cafe pha sẵn</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <div class="bl-coffee--img">
+                            <div class="bl-coffee--img-content"
+                                 style="background: url('img/t1.jpg') no-repeat center center;background-size: cover;">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <div class="bl-coffee--img">
+                            <div class="bl-coffee--img-content"
+                                 style="background: url('img/t2.jpg') no-repeat center center;background-size: cover;">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <h3 class="sub-title">Cafe rang xay</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <div class="bl-coffee--img">
+                            <div class="bl-coffee--img-content"
+                                 style="background: url('img/t3.jpg') no-repeat center center;background-size: cover;">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <div class="bl-coffee--img">
+                            <div class="bl-coffee--img-content"
+                                 style="background: url('img/t4.jpg') no-repeat center center;background-size: cover;">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="row">
+                    <h3 class="sub-title">Other drinks</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <div class="bl-coffee--img">
+                            <div class="bl-coffee--img-content"
+                                 style="background: url('img/t5.jpg') no-repeat center center;background-size: cover;">
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <div class="bl-coffee--img">
+                            <div class="bl-coffee--img-content"
+                                 style="background: url('img/t6.jpg') no-repeat center center;background-size: cover;">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bl-since">
+    <div class="bl-since--content"
+         style="background: url('img/2.png') no-repeat top center;background-size: 100% 100%;">
+    </div>
+</div>
+
+<div id="blog" class="bl-blog">
+    <h2 class="title">Blog</h2>
+
+    <div class="bl-blog--content">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="bl-blog--yt">
+                    <div class="bl-blog--yt-content">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/F3w596tX_i4"
+                                frameborder="0"
+                                allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <h3 class="sub-title">CÀ PHÊ NĂNG - QUÁN CÀ PHÊ ĐI CÙNG NĂM THÁNG CỦA THỦ ĐÔ</h3>
+
+                <div>
+                    <p>Tồn tại qua 60 năm, Cafe Năng được biết đến là một trong Tứ Trụ cà phê lâu đời nhất của Hà
+                        Nội.</p>
+
+                    <p>Nhắc đến cà phê Năng là người ta nghĩ đến ngay tách cà phê đậm đặc làm người uống phải choáng
+                        váng. Và cũng chính vì cái choáng váng đó, người ta đã “nghiện” cà phê ở đây lúc nào không
+                        biết.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row bl-blog--items">
+            <div class="col-md-4">
+                <div class="bl-card bl-blog--item">
+                    <div class="bl-card--content bl-blog--item-content">
+
+                        <div class="bl-card bl-blog--item-img">
+                            <div class="bl-card--content bl-blog--item-img-content">
+                                <img src="img/t7.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="bl-blog--item-info">
+                            <h4>Week of cocoa brownies</h4>
+                            <div class="desc">
+                                Skinny froth ristretto, sweet brewed so pumpkin spice ristretto mocha mazagran so
+                                shop. Carajillo, black, seasonal mazagran, skinny,…
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="bl-card bl-blog--item">
+                    <div class="bl-card--content bl-blog--item-content">
+
+                        <div class="bl-card bl-blog--item-img">
+                            <div class="bl-card--content bl-blog--item-img-content">
+                                <img src="img/t8.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="bl-blog--item-info">
+                            <h4>Week of cocoa brownies</h4>
+                            <div class="desc">
+                                Skinny froth ristretto, sweet brewed so pumpkin spice ristretto mocha mazagran so
+                                shop. Carajillo, black, seasonal mazagran, skinny,…
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="bl-card bl-blog--item">
+                    <div class="bl-card--content bl-blog--item-content">
+
+                        <div class="bl-card bl-blog--item-img">
+                            <div class="bl-card--content bl-blog--item-img-content">
+                                <img src="img/t9.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="bl-blog--item-info">
+                            <h4>Week of cocoa brownies</h4>
+                            <div class="desc">
+                                Skinny froth ristretto, sweet brewed so pumpkin spice ristretto mocha mazagran so
+                                shop. Carajillo, black, seasonal mazagran, skinny,…
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bl-since">
+    <div class="bl-since--content"
+         style="background: url('img/3.png') no-repeat top center;background-size: 100% 100%;">
+    </div>
+</div>
+
+<div id="carousel-example-generic-1" class="bl-carousel-bt carousel slide" data-ride="carousel">
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <div class="bl-carousel-bt--item">
+                <div class="bl-card bl-carousel-bt--item-img">
+                    <div class="bl-card--content bl-carousel-bt--item-img-content">
+                        <img src="img/t10.jpg" alt="Title 1">
+
+                        <div class="bl-card bl-carousel-bt--item-body">
+                            <div class="bl-card--content bl-carousel-bt--item-body-content">
+                                <h4 class="sub-title">Week of cocoa brownies</h4>
+
+                                Skinny froth ristretto, sweet brewed so pumpkin spice ristretto mocha mazagran so shop.
+                                Carajillo, black, seasonal mazagran, skinny,…Skinny froth ristretto, sweet brewed so
+                                pumpkin spice ristretto mocha mazagran so shop. Carajillo, black, seasonal mazagran,
+                                skinny,…Skinny froth ristretto, sweet brewed so pumpkin spice ristretto mocha mazagran
+                                so shop. Carajillo, black, seasonal mazagran, skinny,…Skinny froth ristretto, sweet
+                                brewed so pumpkin spice ristretto mocha mazagran so shop. Carajillo, black, seasonal
+                                mazagran, skinny,…
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <div class="bl-carousel-bt--item">
+                <div class="bl-card bl-carousel-bt--item-img">
+                    <div class="bl-card--content bl-carousel-bt--item-img-content">
+                        <img src="img/t10.jpg" alt="Title 1">
+
+                        <div class="bl-card bl-carousel-bt--item-body">
+                            <div class="bl-card--content bl-carousel-bt--item-body-content">
+                                <h4 class="sub-title">Week of cocoa brownies</h4>
+
+                                Skinny froth ristretto, sweet brewed so pumpkin spice ristretto mocha mazagran so shop.
+                                Carajillo, black, seasonal mazagran, skinny,…Skinny froth ristretto, sweet brewed so
+                                pumpkin spice ristretto mocha mazagran so shop. Carajillo, black, seasonal mazagran,
+                                skinny,…Skinny froth ristretto, sweet brewed so pumpkin spice ristretto mocha mazagran
+                                so shop. Carajillo, black, seasonal mazagran, skinny,…Skinny froth ristretto, sweet
+                                brewed so pumpkin spice ristretto mocha mazagran so shop. Carajillo, black, seasonal
+                                mazagran, skinny,…
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <a class="bl-carousel--control left carousel-control" href="#carousel-example-generic-1" role="button"
+       data-slide="prev">
+        <span class="bl-icon--chevron-left dark"></span>
+    </a>
+    <a class="bl-carousel--control right carousel-control" href="#carousel-example-generic-1" role="button"
+       data-slide="next">
+        <span class="bl-icon--chevron-right dark"></span>
+    </a>
+</div>
+
+<div id="contact" class="bl-contact">
+    <h2 class="title">Contact</h2>
+
+    <div class="bl-blog--content">
+        <div class="row">
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <div class="bl-contact--item">
+                    <span class="bl-icon--phone"></span>
+
+                    <h4 class="sub-title">Telephone</h4>
+
+                    <div class="desc">+84 94 638 88 87</div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <div class="bl-contact--item">
+                    <span class="bl-icon--clock"></span>
+
+                    <h4 class="sub-title">Opening hours</h4>
+
+                    <div class="desc">7AM - 11PM</div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <div class="bl-contact--item">
+                    <span class="bl-icon--position"></span>
+
+                    <h4 class="sub-title">Address</h4>
+
+                    <div class="desc">45 Nguyen Huu Huan</div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-3 col-xs-6">
+                <div class="bl-contact--item">
+                    <span class="bl-icon--mail"></span>
+
+                    <h4 class="sub-title">Email</h4>
+
+                    <div class="desc">nangcafe@gmail.com</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bl-maps">
+    <div id="map-canvas" style="width: 100%; height: 400px"></div>
+</div>
+
+<footer>
+    <div class="container">
+        <div class="row">
+            <div>
+                <a href="#">
+                    <span class="bl-icon--fb"></span>
+                </a>
+                <a href="#">
+                    <span class="bl-icon--google-plus"></span>
+                </a>
+                <a href="#">
+                    <span class="bl-icon--trip-ads"></span>
+                </a>
+            </div>
+
+            <div class="bl-copyright--text">
+                @Copyright by Lega2n
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/jquery.min.js"></script>
+<script src=js/bootstrap.min.js></script>
+
+<script src="https://maps.googleapis.com/maps/api/js?libraries=places&key=AIzaSyBNSt9fqeFb03r5LJYZwG4KALxHd186_OU"></script>
+
+<script type="text/javascript">
+    function initialize() {
+        var myLatlng = new google.maps.LatLng(51.508742, -0.120850);
+        var mapOptions = {
+            zoom: 15,
+            center: myLatlng,
+            mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+        var marker = new google.maps.Marker({
+                position: myLatlng,
+                map: map,
+                title: 'Contact'
+            }
+        );
+    }
+    google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+
+</body>

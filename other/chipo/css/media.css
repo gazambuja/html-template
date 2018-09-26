@@ -1,0 +1,211 @@
+@media (max-width: 768px) {
+    .chipo-header--top {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+
+    .chipo-search--frm {
+        margin-left: 0;
+        display: block;
+        margin-top: 0;
+    }
+
+    .chipo-header--top .navbar-nav > li {
+        padding: 0 15px;
+        display: inline-block;
+    }
+
+    .input-group .form-control.chipo-search--text {
+        width: 235px;
+    }
+
+    .chipo-header--bottom {
+        padding: 0;
+    }
+
+    .chipo-header--bottom .navbar-nav > li {
+        text-align: center;
+    }
+
+    .chipo-header--bottom .navbar-nav.navbar-right > li {
+        display: inline-block;
+        text-align: left;
+    }
+
+    .chipo-header--bottom .navbar-nav.navbar-right > li > a {
+        padding: 0px 5px;
+        display: inline-block;
+    }
+
+    .chipo-header--bottom .navbar-nav.navbar-right {
+        margin: 0 auto;
+    }
+
+    .chipo-header--bottom .navbar-nav > li {
+        line-height: 25px;
+    }
+
+    .chipo-header--bottom .navbar-nav.navbar-right > li {
+        line-height: 35px;
+    }
+
+    .chipo-banner > .chipo-banner--content,
+    .chipo-banner.chipo-progress > .chipo-banner--content {
+        background-position: top center;
+        background-size: cover;
+    }
+
+    .chipo-banner:before, .chipo-banner.chipo-progress:before {
+        margin-top: 66.66666666666667%;
+    }
+
+    .chipo-banner > .chipo-banner--content h2 {
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0 30px;
+        font-size: 25px;
+        margin: 0;
+    }
+
+    .chipo-step--item {
+        width: 50%;
+    }
+
+    .chipo-step--item-line {
+        display: none;
+    }
+
+    .chipo-button--ads {
+        margin-bottom: 10px;
+    }
+
+    .chipo-cost {
+
+    }
+
+    .chipo-register.chipo-card:before,
+    .chipo-login.chipo-card:before {
+        margin-top: 0;
+    }
+
+    .chipo-register--content.chipo-card--content,
+    .chipo-login--content.chipo-card--content {
+        position: static;
+    }
+
+    .chipo-login--frm {
+        max-width: 100%;
+    }
+
+    .chipo-post {
+        padding: 0 15px;
+    }
+
+    .admin-header--top {
+        display: none;
+    }
+
+    .admin-header--top-mobile {
+        display: block;
+    }
+
+    .admin-header--top-logo {
+        text-align: center;
+        background: #32363e;
+        padding: 5px 0;
+    }
+
+    .admin-header--top-mobile .navbar-collapse {
+        padding: 0;
+    }
+
+    .admin-header--top-mobile .nav {
+        margin: 0;
+    }
+
+    .admin-header--top-mobile .nav > li {
+        font-size: 12px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
+    .admin-header--top-mobile .nav > li > a {
+        padding: 10px 15px;
+    }
+
+    .admin-header .sidebar-toggle:hover {
+        background: transparent;
+        color: #999;
+    }
+
+    .admin-header--left {
+        float: left;
+    }
+
+    .admin-header--right {
+        float: right;
+        padding-right: 0;
+    }
+
+    .admin-header--user {
+        position: relative;
+    }
+
+    .admin-header--user-img {
+        float: left;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        margin-right: 0;
+        margin-top: -10px;
+    }
+
+    .admin-header--user.open .dropdown-toggle:hover {
+        background: transparent;
+    }
+
+    .admin-header--user.open .dropdown-menu {
+        position: absolute;
+        left: inherit;
+        right: 0;
+    }
+
+    .admin-sidebar {
+        -webkit-transform: translate(-230px, 0);
+        -ms-transform: translate(-230px, 0);
+        -o-transform: translate(-230px, 0);
+        transform: translate(-230px, 0);
+
+
+    }
+
+    .admin-main.has_menu .admin-sidebar {
+        -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        -o-transform: translate(0, 0);
+        transform: translate(0, 0);
+    }
+
+    .admin-main.has_menu .admin-content {
+        margin-left: 230px;
+    }
+
+    .admin-content {
+        margin-left: 0;
+    }
+
+    .admin-content--header > .breadcrumb {
+        float: none;
+        position: static;
+        padding: 0;
+    }
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}

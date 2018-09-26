@@ -1,0 +1,39 @@
+
+/* Main theme color */
+.slider-container .slider-controls .slider-control.active a,
+.breaking-news .breaking-title,
+.breaking-news .breaking-controls,
+.main-content-right .panel h3,
+.content-panel .panel-header b,
+.page-pager > span,
+.page-pager > a:hover,
+.shortcode-content .spacer-break-2,
+.shortcode-content .spacer-break-3,
+.shortcode-content .spacer-break-4,
+.shortcode-content table thead,
+.shortcode-content .accordion > div > a,
+.content .filter a.active,
+.article-array li:before {
+	background-color: #264c84;
+}
+
+/* Main links color */
+a {
+	color: #264c84;
+}
+
+/* Page title color */
+.content-article-title {
+	border-bottom: 4px solid #264c84;
+	color: #264c84;
+}
+
+/* Pager border color */
+.page-pager {
+	border-top: 1px solid #264c84;
+}
+
+/* Gallery shortcode active thumb color */
+.shortcode-content .gallery-preview .gallery-thumbs li.active:before {
+	box-shadow: inset 0px 0px 0px 5px #264c84;
+}

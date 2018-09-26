@@ -1,0 +1,12 @@
+.top-left h1 {
+    font-size: 35px;
+}
+
+.img-fluid {
+    width: 100%;
+}
+
+.single-post-content h2{
+    font-size: 18px;
+    margin: 15px 0;
+}
